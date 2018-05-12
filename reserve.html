@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stuff.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <title>Reserve</title>
+</head>
+
+<body>
+    <div class="jumbotron mx-auto" style="width: 95%;" id="jumbowidth">
+        <h1 class="display-4 mx-auto" style="width: 350px;">Hot Restaurant</h1>
+        <p class="lead">Current Restaurant and Waiting List
+        </p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a href="/tables">
+                <button type="button" class="btn btn-secondary btn-lg">view tables</button>
+            </a>
+            <a href="/home">
+                <button type="button" class="btn btn-primary btn-lg">HOME</button>
+            </a>
+        </p>
+    </div>
+    <div class="reserveBody mx-auto" style="width: 95%;">
+        <div class="mx-auto" style="width: 85%;">
+            <form method="POST" role="form">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="uniqueId">Unique ID</label>
+                    <input type="text" class="form-control" id="uniqueId">
+                </div>
+
+            </form>
+            <div class="justify-content-start">
+                <button type="submit" class="btn btn-primary btn-md" id="add-btn">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+<script type="text/javascript">
+
+
+</script>
+
+</html>
